@@ -1,0 +1,64 @@
+/* AT 970PX */
+@media(max-width: 61em) {
+  html {
+    font-size: 72.5%;
+  }
+
+  body {
+    padding-left: 3.2rem;
+  }
+
+  .kira-test {
+    width: 13.5rem;
+  }
+}
+
+/* AT 890px */
+@media(max-width: 57em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* AT 770px */
+@media(max-width: 49em) {
+  html {
+    font-size: 56%;
+  }
+
+  body {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
+
+/* AT 650px */
+@media(max-width: 41em) {
+  body {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .grid-1,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .kira-test {
+    width: auto;
+  }
+
+
+}
+
+/* AT 400px */
+@media(max-width: 25em) {
+  html {
+    font-size: 54.6%;
+  }
+}
